@@ -4,4 +4,4 @@ while True:
         music.ba_ding.play_until_done()
 
     if input.sound_level() > 540:
-        light.set_all(1,1,1)
+        #light.set_all(light.rgb(1, 1, 1))
